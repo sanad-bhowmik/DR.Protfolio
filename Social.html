@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SOCIAL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://us.123rf.com/450wm/putracetol/putracetol1706/putracetol170601029/80693430-letter-c-network-icon-logo-design-element.jpg?ver=6">
+    <style>
+        *{ margin: 0; padding: 0; }
+        .centerdiv{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a{
+            height: 100px;
+            width: 100px;
+            background-color: #f5f6fa;
+            border-radius: 50px;
+            text-align: center;
+            margin: 10px;
+            line-height: 100px;
+            box-shadow: 1px 4px 2px 2px #dcdde1;
+        }
+        a i{
+            transition: all 0.3s linear;
+        }
+        a:hover i{
+            transform: scale(1.4);
+        }
+        .fa-youtube{
+            color: #dc1010;
+        }
+        .fa-facebook{
+            color: rgb(22, 8, 221);
+        }
+        .fa-instagram{
+            color: #e84383;
+        }
+        body{
+            background: #0a1c29;
+        }
+        h1{
+            position: relative;
+            font-size: 49px;
+            color: #252839;
+            -webkit-text-stroke: 0.3w #383d52;
+            text-transform: uppercase;
+        }
+        h1::before{
+            content: attr(data-text);
+            position: absolute;
+            top: 10;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            color: #dedede;
+            -webkit-text-stroke: 0vw #5b6eba;
+            border-right: 2px solid #82a29d ;
+            overflow: hidden;
+            animation: animate 6s linear infinite;
+        }
+        @keyframes animate
+        {
+            0%,10%,100%
+            {
+                width: 0;
+            }
+            70%,90%
+            {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 data-text="CLICK & FOLLOW ME ON SOCIAL MEDIA">CLICK & FOLLOW ME ON SOCIAL MEDIA</h1>
+    <div class="centerdiv">
+        <a href="https://www.facebook.com/shatabdibhowmik.service" target="_blank">
+            <i class="fa fa-2x fa-facebook"></i>
+        </a>
+        <a href="https://www.youtube.com/c/DrShatabdiBhowmik" target="_blank">
+            <i class="fa fa-2x fa-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/shatabdibhowmik.service" target="_blank">
+            <i class="fa fa-2x fa-instagram"></i>
+        </a>
+    </div>
+</body>
+</html>

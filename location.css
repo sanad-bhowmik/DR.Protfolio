@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 140vh;
+    display: grid;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-in{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px #666;
+}
+.contact-map{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+.contact-map iframe{
+    width: 100%;
+    height: 100%;
+}
+.contact-form{
+    width: 120%;
+    color: #1276e9;
+    height: auto;
+    flex: 50%;
+    padding: 80px;
+    text-align: center;
+    background: url(https://i.pinimg.com/originals/d7/ae/01/d7ae0170d3d5ffcbaa7f02fdda387a3b.gif);
+}
+.contact-form h1{
+    margin-bottom: 10px;
+}
+.contact-form-txt{
+    width: 100%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.contact-form-txt::placeholder{
+    color:#aaa;
+}
+.contact-form-textarea{
+    width: 100%;
+    height: 130px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-form-txt::placeholder{
+    color:#aaa;
+}
+.contact-form-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: #8e2de2;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+#icon{
+    font-size:48px;
+    text-align:right;
+    width: 70%;
+    height: 500%;
+}
